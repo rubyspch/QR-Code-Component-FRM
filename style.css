@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+img {
+  width: 85%;
+  border-radius: 10px;
+  margin-top: 7.5%;
+}
+#pcontainer {
+  margin-bottom: 7.5%;
+  width: 85%;
+  height: auto;
+}
+p {
+  color: hsl(220, 15%, 55%);
+}
+#bold {
+  color: hsl(218, 44%, 22%);
+}
